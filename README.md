@@ -1,6 +1,10 @@
 # Tribute Page
 This is a tribute page dedicated to Nelson Mandela, a revered statesman and anti-apartheid revolutionary who fought for justice, equality, and human rights. The web page showcases his biography, accomplishments, legacy, and provides additional resources for further information.
 
+## Preview
+
+![Preview](Mandela.png)
+
 ## Technologies Used
 HTML
 CSS
