@@ -1,1 +1,89 @@
+ :root {
+  --font: "montserrat";
+  --bgcolor: #336633;
+  --textcolor: white;
+  --hover: blue;
 
+}
+* {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+html {
+  background-color: var(--bgcolor);
+  opacity: 0.8;
+}
+header {
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 20px;
+    font-family: var(--font);
+   
+}
+main {
+    color: var(--textcolor);
+    font-size: 20px;
+    font-family: var(--font);
+}
+#image {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    display: block;
+    height: 40%;
+    width: 100%;
+    margin:0 auto;
+    
+  }
+#img-caption {
+    text-align: center;
+    color: var(--textcolor);
+    font-size: 20px;
+    width: 100%;
+  }
+h2 {
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: -550px;
+    margin-top: -5px;
+    margin-left: 10px;
+
+  }
+  .link {
+   
+    height: 250px;
+    width:auto;
+   }
+  .contact-links {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+  }
+.contact-links a{
+    text-decoration: none;
+    color: black;
+  }
+.contact-links p{
+    margin-top: -6px;
+    margin-left: 10px;
+}
+.contact-links p:hover{
+    color: var(--hover);
+}
+footer {
+    background-color: black ;
+    height: 30px;
+    opacity: 0.5;
+}
+
+footer p{
+    color: var(--textcolor);
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+  
